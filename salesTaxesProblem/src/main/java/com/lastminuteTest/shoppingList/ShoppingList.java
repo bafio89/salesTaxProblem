@@ -1,4 +1,4 @@
-package com.lastiminuteTest.shoppingList;
+package com.lastminuteTest.shoppingList;
 
 import java.util.ArrayList;
 

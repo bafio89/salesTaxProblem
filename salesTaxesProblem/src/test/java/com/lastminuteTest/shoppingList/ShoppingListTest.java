@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.lastiminuteTest.shoppingList.ShoppingList;
 import com.lastminuteTest.product.Product;
+import com.lastminuteTest.shoppingList.ShoppingList;
 import com.lastminuteTest.taxCalculator.CountryTaxStrategyRepository;
 import com.lastminuteTest.taxCalculator.CountryTaxStrategyRepositoryInterface;
 import com.lastminuteTest.taxCalculator.TaxCalculatorStandardStrategy;
