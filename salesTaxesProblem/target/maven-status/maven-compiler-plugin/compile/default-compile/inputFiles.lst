@@ -1,0 +1,12 @@
+/home/fabio/git/salesTaxProblem/salesTaxesProblem/src/main/java/com/lastminuteProblem/taxCalculator/TaxCalculatorStandardStrategy.java
+/home/fabio/git/salesTaxProblem/salesTaxesProblem/src/main/java/com/lastminuteProblem/taxCalculator/CountryTaxStrategyRepository.java
+/home/fabio/git/salesTaxProblem/salesTaxesProblem/src/main/java/com/lastminuteProblem/taxRate/CountryTaxRateRepositoryInterface.java
+/home/fabio/git/salesTaxProblem/salesTaxesProblem/src/main/java/com/lastminuteProblem/product/Product.java
+/home/fabio/git/salesTaxProblem/salesTaxesProblem/src/main/java/com/lastminuteProblem/taxRate/CountryTaxRate.java
+/home/fabio/git/salesTaxProblem/salesTaxesProblem/src/main/java/com/lastminuteProblem/taxCalculator/TaxCalculatorStrategyInterface.java
+/home/fabio/git/salesTaxProblem/salesTaxesProblem/src/main/java/com/lastminuteProblem/taxCalculator/CountryTaxStrategyRepositoryInterface.java
+/home/fabio/git/salesTaxProblem/salesTaxesProblem/src/main/java/com/lastminuteProblem/shoppingList/ShoppingList.java
+/home/fabio/git/salesTaxProblem/salesTaxesProblem/src/main/java/com/lastminuteProblem/taxRate/StandardTaxesType.java
+/home/fabio/git/salesTaxProblem/salesTaxesProblem/src/main/java/com/lastminuteProblem/taxRate/TaxesType.java
+/home/fabio/git/salesTaxProblem/salesTaxesProblem/src/main/java/com/lastminuteProblem/taxRate/CountryTaxRateRepository.java
+/home/fabio/git/salesTaxProblem/salesTaxesProblem/src/main/java/com/lastminuteProblem/taxRate/CountryTaxRateInterface.java

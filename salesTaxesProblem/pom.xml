@@ -5,4 +5,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Sales Taxes Problem</name>
   <description>Sales taxes problem for lastminute.com test</description>
+  <dependencies>
+  <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+</dependency>
+  </dependencies>
 </project>

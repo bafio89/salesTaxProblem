@@ -50,8 +50,7 @@ public class ShoppingList {
 		try{
 			countryTaxRate.setTaxCalculatorStrategy(taxCalculatorStrategy);
 		}catch (NullPointerException e){
-			 System.err.println("Desidered country tax rate was not found");
-			 e.printStackTrace();
+			 System.err.println("Desidered country tax rate was not found");			 
 			 return "Desidered country tax rate was not found";
 		}	
 		
@@ -61,8 +60,7 @@ public class ShoppingList {
 	        	taxes = countryTaxRate.calculateTax(product);
 			    this.totalTaxes += taxes * product.getQuantity();
 			}catch (NullPointerException e){
-				 System.err.println("No strategy has been set");
-				 e.printStackTrace();
+				 System.err.println("No strategy has been set");				
 				 return "No strategy has been set";
 			}
 			
