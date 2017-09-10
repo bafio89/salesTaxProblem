@@ -2,9 +2,6 @@ package com.lastminuteProblem.shoppingList;
 
 import java.util.ArrayList;
 
-import org.junit.Before;
-import org.junit.Test;
-
 import com.lastminuteProblem.product.Product;
 import com.lastminuteProblem.shoppingList.ShoppingList;
 import com.lastminuteProblem.taxCalculator.CountryTaxStrategyRepository;
@@ -118,5 +115,20 @@ public class ShoppingListTest extends TestCase{
 				      "Total: 74.68", this.shoppingList.calculateBill(productsList3, "St"));
 	}
 	
+	
+	public void testCalculateBillWithListwithTwiceTheSameObject(){
+		
+		ArrayList<Product> productsList2 = new ArrayList<Product>();
+		Product boxOfChocolate = new Product(2, "imported box of chocolate", 10, true, true );
+		Product bottleOfPerfume = new Product(1,"imported bottle of perfume", 47.50f, false, true );		
+				
+		productsList2.add(boxOfChocolate);
+		productsList2.add(bottleOfPerfume);
+		
+		assertEquals( "2 imported box of chocolate: 21.0\n" +
+					  "1 imported bottle of perfume: 54.65\n"+
+					  "Sales Taxes: 8.15\n"+
+					  "Total: 75.65", this.shoppingList.calculateBill(productsList2, "St"));
+	}
 	
 }	
